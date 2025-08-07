@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { font-family: 'Script MT Bold', cursive; }
+    .tagline { font-family: Arial, sans-serif; }
+  </style>
+  <text x="10" y="40" class="logo-text" fill="#1A1A1A" font-size="48">shir</text>
+  <text x="85" y="40" class="logo-text" fill="#B5873A" font-size="48">love</text>
+  <text x="10" y="55" class="tagline" fill="#3E2E15" font-size="12">BELLEZA QUE NACE DEL ALMA</text>
+</svg> 
