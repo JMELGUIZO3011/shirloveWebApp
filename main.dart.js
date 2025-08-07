@@ -28953,7 +28953,8 @@ apS:function apS(){},
 apU:function apU(a,b,c){this.a=a
 this.b=b
 this.c=c},
-apV:function apV(a){this.a=a},
+apV:function apV(a,b){this.a=a
+this.b=b},
 apN:function apN(a){this.a=a},
 apM:function apM(){},
 apO:function apO(a){this.a=a},
@@ -98018,7 +98019,7 @@ q=q==null?k:B.b.ga8(q.c.G().split("."))
 q=A.f(q==null?"":q)
 l=A.H(a).p2.w
 l=l==null?k:l.bq(B.aS)
-return A.xa(p,A.bn(k,A.aS(A.a([A.bn(k,A.aS(A.a([m,B.dt,A.a5("Rol: "+q,k,k,k,k,l,k,k,k)],o),B.P,B.l,B.o),B.n,k,new A.bq(B.j,k,k,k,r,k,B.H),k,k,k,B.dd,k,k,1/0),A.ce(new A.aP(B.dd,new A.rG(new A.apV(n),k),k),1)],o),B.p,B.l,B.o),B.n,k,new A.bq(k,k,k,k,k,new A.io(B.hX,B.hW,B.aU,s,k,k),B.H),k,k,k,k,k,k,k),k)}return B.T8},
+return A.xa(p,A.bn(k,A.aS(A.a([A.bn(k,A.aS(A.a([m,B.dt,A.a5("Rol: "+q,k,k,k,k,l,k,k,k)],o),B.P,B.l,B.o),B.n,k,new A.bq(B.j,k,k,k,r,k,B.H),k,k,k,B.dd,k,k,1/0),A.ce(new A.aP(B.dd,new A.rG(new A.apV(n,b),k),k),1)],o),B.p,B.l,B.o),B.n,k,new A.bq(k,k,k,k,k,new A.io(B.hX,B.hW,B.aU,s,k,k),B.H),k,k,k,k,k,k,k),k)}return B.T8},
 $C:"$3",
 $R:3,
 $S:555}
@@ -98033,12 +98034,24 @@ A.apU.prototype={
 $0(){return this.a.aoI(this.b,this.c)},
 $S:0}
 A.apV.prototype={
-$2(a,b){var s,r=null,q=b.b
-if(q>1200)q=4
-else q=q>800?3:2
-s=this.a
-s=A.alB(A.a([s.vr(a,B.b0,B.qS,new A.apN(a),"Gestionar Clientes"),s.vr(a,B.aa,B.Nu,new A.apO(a),"Gestionar Ventas"),s.vr(a,B.ji,B.Nf,new A.apP(a),"Reportes"),s.vr(a,B.mt,B.Nv,new A.apQ(),"Configuraci\xf3n"),s.vr(a,B.Hy,B.No,new A.apR(a),"Inventario")],t.p),!0,!0,!0)
-return new A.ow(new A.So(q,16,16,1.8),s,B.Mt,B.W,!1,r,r,B.fs,!1,r,5,B.A,B.ce,r,B.r,B.aB,r)},
+$2(a,b){var s,r,q,p,o=null,n=b.b
+if(n>1200)n=4
+else n=n>800?3:2
+s=t.p
+r=A.a([],s)
+q=this.b
+p=q.b
+p=p==null?o:p.d
+if(p===!0){p=this.a
+B.b.F(r,A.a([p.vr(a,B.b0,B.qS,new A.apN(a),"Gestionar Clientes"),p.vr(a,B.aa,B.Nu,new A.apO(a),"Gestionar Ventas")],s))}s=this.a
+r.push(s.vr(a,B.ji,B.Nf,new A.apP(a),"Reportes"))
+q=q.b
+q=q==null?o:q.d
+if(q===!0)r.push(s.vr(a,B.mt,B.Nv,new A.apQ(),"Configuraci\xf3n"))
+r.push(s.vr(a,B.Hy,B.No,new A.apR(a),"Inventario"))
+s=A.alB(r,!0,!0,!0)
+r=r.length
+return new A.ow(new A.So(n,16,16,1.8),s,B.Mt,B.W,!1,o,o,B.fs,!1,o,r,B.A,B.ce,o,B.r,B.aB,o)},
 $S:206}
 A.apN.prototype={
 $0(){var s=A.CO(new A.apM(),null,t.z)
